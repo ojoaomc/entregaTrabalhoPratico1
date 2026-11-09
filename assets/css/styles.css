@@ -1,0 +1,84 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Roxo Institucional */
+.header-roxo {
+    min-height: 4rem;
+    background-color: #674ea7 !important;
+    color: #ffffff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    width: 100%;
+}
+
+.titulo {
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-roxo a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* Cores do tema roxo para botões e badges Bootstrap */
+.bg-purple {
+    background-color: #674ea7 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary {
+    background-color: #674ea7 !important;
+    border-color: #674ea7 !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: #523c8a !important;
+    border-color: #523c8a !important;
+}
+
+/* Redução e Ajuste Compacto do Carrossel */
+#carrosselDestaques {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.img-carrossel {
+    height: 220px !important;
+    max-height: 220px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+/* Imagens dos Cards e Atrações */
+.img-card {
+    height: 160px;
+    object-fit: cover;
+}
+
+.img-atracao {
+    height: 130px;
+    object-fit: cover;
+}
+
+.img-detalhe-capa {
+    max-height: 260px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .border-end-md {
+        border-right: 1px solid #dee2e6;
+    }
+}
